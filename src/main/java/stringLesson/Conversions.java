@@ -1,0 +1,16 @@
+package stringLesson;
+
+public class Conversions {
+    public static void main(String[] args) {
+        //перевод текста в числовое значение
+        String txt = "5";
+        int intTxt = Integer.parseInt(txt);
+        int result = intTxt + 2;
+        System.out.println(result);
+        //перевод числа в текстовое значение
+        int i = 555;
+        String result2 = String.valueOf(i);
+        System.out.println(result2);
+        System.out.println(result2.length());
+    }
+}
